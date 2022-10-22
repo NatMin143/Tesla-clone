@@ -1,0 +1,19 @@
+@media screen and (max-width: 768px) {
+    .model-name{
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .order{
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .co-bt{
+        margin-bottom: 20px;
+    }
+
+    .co-bt button{
+        margin-right: 0;
+    }
+}

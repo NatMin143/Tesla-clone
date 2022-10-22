@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    height: 1000px;
+}
+
+p{
+    margin: 0;
+}
+
+
+/*top navigation fixed*/
+
+.navnav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0;
+    z-index: 2;
+}
+
+.nav-container{
+    padding: 10px 10px;
+    margin: 0;
+    background-color: transparent;
+}
+
+/*tesla-logo*/
+
+.tesla-logo{
+    display: flex;
+    align-items: center;
+    margin: 3% 4%;
+    cursor: pointer;
+}
+
+.tesla-logo img{
+    width: 100px;
+}
+
+/*model-menu*/
+
+.model-menu{
+    display: flex;
+    justify-content: center;
+}
+
+.model-list{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0px;
+}
+
+.m-items{
+    padding: 5px 15px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.m-items:hover{
+    background-color: rgb(252, 250, 250);
+}
+
+/*right navigation menu*/
+
+.right-menu{
+    display: flex;
+    justify-content: end;
+}
+
+.right-nav-list{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+/*Products in the main body*/
+
+.product-col{
+    padding: 0;
+}
+
+.product-image{
+    position: relative;
+}
+
+.product-image img{
+    width: 100%;
+    height: 618px;
+    object-fit: cover;
+}
+
+/*The model description - fixed*/
+
+.model-des{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 92px;
+    left: 50%;
+    transform: translate(-50%, 0)
+}
+
+.model-name{
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(41, 40, 40);
+}
+
+.order{
+    font-size: 17px;
+    cursor: pointer;
+    color: rgb(41, 40, 40);
+}
+
+.order span{
+    padding-bottom: 2px;
+    border-bottom: 1px solid rgb(41, 40, 40);
+}
+
+/*The two buttons*/
+
+.two-bt-fixed{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 460px;
+    left: 50%;
+    transform: translate(-50%, 0)
+}
+
+.buttn{
+    display: flex;
+    justify-content: center;
+}
+
+.co-bt button{
+    margin-right: 20px;
+    font-weight: bold;
+    width: 250px;
+    padding: 8px 20px;
+    background-color: rgb(51, 49, 49);
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.ei-bt button{
+    font-weight: bold;
+    width: 250px;
+    padding: 8px 20px;
+    background-color: white;
+    color: rgb(51, 49, 49);
+    border-style: none;
+    border-radius: 5px;
+}
